@@ -6,7 +6,8 @@ import { Provider } from "react-redux";
 import { store, persistor } from "./redux/store";
 import { PersistGate } from "redux-persist/lib/integration/react";
 import { SnackbarProvider } from "notistack";
-  
+import "./index.css";
+
 ReactDOM.render(
   <React.StrictMode>
     <SnackbarProvider

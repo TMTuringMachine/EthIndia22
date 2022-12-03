@@ -5,7 +5,7 @@ import JwtProvider from "./providers/JwtProvider";
 function App() {
   return (
     <JwtProvider>
-      <div className="App">
+      <div className="w-screen h-screen overflow-x-hidden" >
         <Router />
       </div>
     </JwtProvider>
