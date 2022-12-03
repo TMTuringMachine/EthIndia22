@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Test from '../../components/Test';
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div>
+      {' '}
+      <h1>helloo</h1> <Test />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
